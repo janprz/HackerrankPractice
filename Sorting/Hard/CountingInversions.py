@@ -45,7 +45,7 @@ def merge(arr,l,m,r):
             arr[k] = right_arr[j]
             j += 1
             k += 1
-            n_inv += m-i+1
+            n_inv += m-l-i+1
     
     while i < m-l+1:
         arr[k] = left_arr[i]
